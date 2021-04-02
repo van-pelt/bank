@@ -11,3 +11,10 @@ func ExampleAvg() {
 	// Output:
 	// 41
 }
+
+func ExampleTotalInCategory() {
+	data := TotalInCategory(payment.GeneratePayments(), "food")
+	fmt.Println(data)
+	// Output:
+	// 199
+}

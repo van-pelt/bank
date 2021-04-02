@@ -1,6 +1,7 @@
 package types
 
 type Currency string
+type Category string
 type Money int
 type Card struct {
 	ID         int
@@ -16,6 +17,7 @@ type Card struct {
 type Payment struct {
 	ID     int
 	Amount Money
+	Category Category
 }
 
 type PaymentSource struct {
