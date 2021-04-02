@@ -1,8 +1,8 @@
 package card
 
 import (
-	"bank/pkg/bank/types"
 	"errors"
+	"github.com/van-pelt/bank/pkg/bank/types"
 )
 
 const limits = 20000

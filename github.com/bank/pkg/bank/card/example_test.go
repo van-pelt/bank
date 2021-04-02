@@ -1,8 +1,8 @@
 package card
 
 import (
-	"bank/pkg/bank/types"
 	"fmt"
+	"github.com/van-pelt/bank/pkg/bank/types"
 )
 
 func CardTesting(amount types.Money, isActive bool) *types.Card {

@@ -1,7 +1,7 @@
 package payment
 
 import (
-	"bank/pkg/bank/types"
+	"github.com/van-pelt/bank/pkg/bank/types"
 	"sort"
 )
 

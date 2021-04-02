@@ -1,8 +1,8 @@
 package test
 
 import (
-	"bank/pkg/deposit"
 	"fmt"
+	"github.com/van-pelt/bank/pkg/deposit"
 	"testing"
 )
 

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bank/pkg/bank/card"
-	"bank/pkg/bank/payment"
 	"fmt"
+	"github.com/van-pelt/bank/pkg/bank/card"
+	"github.com/van-pelt/bank/pkg/bank/payment"
 )
 
 func main() {

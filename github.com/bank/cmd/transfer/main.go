@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bank/pkg/bank/transfer"
 	"flag"
 	"fmt"
+	"github.com/van-pelt/bank/pkg/bank/transfer"
 )
 
 func main() {

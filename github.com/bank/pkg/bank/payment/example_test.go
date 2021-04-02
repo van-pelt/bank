@@ -1,9 +1,9 @@
 package payment
 
 import (
-	"bank/pkg/bank/card"
-	"bank/pkg/bank/types"
 	"fmt"
+	"github.com/van-pelt/bank/pkg/bank/card"
+	"github.com/van-pelt/bank/pkg/bank/types"
 )
 
 func PaymentTesting() *[]types.Card {
